@@ -1,0 +1,11 @@
+@import './import/body.scss';
+@import './import/footer.scss';
+@import './import/nav.scss';
+@import './import/section.scss';
+@import './import/index.scss';
+@import './import/acercade.scss';
+@import './import/login.scss';
+@import './import/home.scss';
+//@import './iconos/iconos.scss';
+a{text-decoration: none !important; color: #000;}
+li{padding: 10px;list-style: none !important;}

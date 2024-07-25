@@ -1,0 +1,30 @@
+.footer{height: 150px;background:#CDD0CB;margin: auto 0 0;
+    .logo{ 
+        font-family: "MedievalSharp", cursive;font-weight: 700;font-style: normal;position: relative;margin-top: 10px;display: inline-block;text-align: center;
+                p{margin: 0;font-size: 42px;    margin: 5px auto;color: #3a3a3a;}
+                p::first-letter{background: rgb(197, 74, 74);color: #fff;font-size: 44px;padding:0 5px;margin: 0;vertical-align: baseline;}
+                span{font-size: 24px;position: absolute;color: #fff;top: 40px;left: 45%;text-shadow: 1px -1px 6px black;}
+    }
+}
+.medium{max-width: 1240px;width: 100%;margin: auto;max-height: 120px;overflow: hidden;height: 100%;display: flex;justify-content: space-between;padding-bottom: 10px;ul{
+                                   display: flex;justify-content: center;align-items: center;li{
+                                                                                                padding: 10px 5px;
+                                   } 
+}}
+.medium ul.redes{justify-content: end;} 
+.medium [class^="icon-"],.medium [class*=" icon-"] {font-size: 25px;color:#010101;}
+.end-footer{height: 30px;background: #f9f9f9;padding: 5px;display: flex;justify-content: space-between;align-items: center;  padding: 0 20px;}
+@media screen and (max-width: 1024px){
+    .medium {max-width: 980px;width: 100%;}
+    }
+@media screen and (max-width: 769px){
+     .logo{margin-left: 20px;}
+     nav{margin-right: 20px;}
+ }
+ @media screen and (max-width: 760px){
+        .footer{display: flex;flex-direction: column;height: auto;
+            .medium{max-height: 100%;flex-direction: column;
+                    ul{align-items: flex-start;}
+                    ul.redes{text-align: center;align-items: center;justify-content: center;}}}
+        .copy{display: none;}            
+ }
