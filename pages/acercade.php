@@ -1,4 +1,5 @@
 <?php
+$pageClass['class']="acercade";
 include '../db/connection.php';
 include '../includes/head.php';
 include '../includes/nav.php';

@@ -285,6 +285,18 @@ body {
   color: inherit;
 }
 
+.acercade img {
+  float: right;
+}
+
+@media screen and (max-width: 760px) {
+  h3 {
+    text-align: center;
+  }
+  img {
+    float: none;
+  }
+}
 .login {
   position: relative;
   height: 100vh;
@@ -343,6 +355,13 @@ input[type=submit] {
   font-size: 18px;
 }
 
+@media screen and (max-width: 760px) {
+  .login div::before {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 10px;
+  }
+}
 .flex.home {
   display: flex;
 }
@@ -350,11 +369,19 @@ input[type=submit] {
   font-size: 25px;
   line-height: 150%;
 }
+.flex.home cite p {
+  font-size: inherit;
+}
 .flex.home img {
   width: 520px;
   height: auto;
 }
 
+@media screen and (max-width: 760px) {
+  #img-home {
+    width: 320px;
+  }
+}
 a {
   text-decoration: none !important;
   color: #000;
@@ -363,6 +390,14 @@ a {
 li {
   padding: 10px;
   list-style: none !important;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

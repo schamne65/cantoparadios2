@@ -1,3 +1,9 @@
+<?php
+if(!isset($pageClass['class'])){
+    $pageClass['class']="";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +14,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=MedievalSharp&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/iconos/style.css">
-    <title>Armando includes</title>
+    <title>Canto para Dios</title>
 </head>
-<body>
+<body class="<?php echo $pageClass['class'] ?>">

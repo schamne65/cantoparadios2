@@ -5,7 +5,7 @@ include '../includes/structure_top.php';
     <cite>
         <p>"¡Cuánto lloré al oír vuestros himnos y cánticos, fuertemente conmovido por las voces de vuestra Iglesia, que suavemente cantaba! Entraban aquellas voces en mis oídos, y vuestra verdad se derretía en mi corazón, y con esto se inflamaba el afecto de piedad, y corrían las lágrimas, y me iba bien con ellas.!"  <span><strong>San Agustín, Confessiones 9, 6, 14</strong></span>.</p>
     </cite>    
-    <img src="../img/sanagustin.jpeg" alt="">
+    <img id="img-home" src="../img/sanagustin.jpeg" alt="Imagen del san Agustín">
 </div>
 <div class="flex home">
 
