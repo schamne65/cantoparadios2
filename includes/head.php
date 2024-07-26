@@ -1,15 +1,4 @@
 <?php
-
-$request_uri = $_SERVER['REQUEST_URI'];
-if (strpos($request_uri, '/pages/') === false) {
-    $new_uri = '/pages' . $request_uri;
-    header("Location: $new_uri");
-    exit();
-}
-
-// Si la URL ya contiene '/pages/', incluye el archivo correspondiente.
-include __DIR__ . '/pages' . $request_uri;
-
 if(!isset($pageClass['class'])){
     $pageClass['class']="";
 }
