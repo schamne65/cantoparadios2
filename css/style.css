@@ -382,6 +382,19 @@ input[type=submit] {
     width: 320px;
   }
 }
+.link .link-container a {
+  font-size: 30px;
+}
+.link .link-container a [class^=icon-]::before {
+  position: relative;
+  top: 3px;
+  color: #c4302b;
+  font-size: 35px;
+}
+.link .link-container a .link-name {
+  margin-left: 5px;
+}
+
 a {
   text-decoration: none !important;
   color: #000;
