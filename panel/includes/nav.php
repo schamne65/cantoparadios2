@@ -10,8 +10,8 @@
                 <li><a href="../pages/enlaces.php">Enlaces</a></li> -->
                 <?php
                 if ($_SESSION['username'] == "nicolas") {?>
-                    <li><a href="../panel/panel-documento.php">Panel documentos</a></li>
-                    <li><a href="../panel/panel-video.php">Panel videos</a></li>
+                    <li><a href="../pages/panel-documento.php">Panel documentos</a></li>
+                    <li><a href="../pages/panel-video.php">Panel videos</a></li>
                  <?php }
                 ?>
             </ul>
