@@ -21,7 +21,7 @@ $conexiones =connection();
                 
                 
                 } else {
-                    echo "No se encontraron datos en la tabla inventario. 2";
+                    echo "No se encontraron datos en la tabla documentos. 2";
                 }
             } catch (PDOException $e) {
                  echo 'Error en la consulta: 3' . $e->getMessage() ;
