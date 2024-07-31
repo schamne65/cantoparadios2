@@ -1,0 +1,7 @@
+.flex.home{display: flex;
+            cite{font-size: 25px;line-height: 150%;
+                    p{font-size: inherit;}}
+            img{width: 520px;height: auto};}
+@media screen and (max-width: 760px){
+    #img-home{width: 100% }
+    }                
