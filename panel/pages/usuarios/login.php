@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $row = $result[0];
         if (password_verify($userPassword, $row['user_password'])) {
             $_SESSION['username'] = $userName;
-            header('Location: ../home.php'); // Sin espacios alrededor del colon
+            header('Location: ../panel-documento.php'); // Sin espacios alrededor del colon
             exit();
         } else {
             $error = "Contraseña invalida";
