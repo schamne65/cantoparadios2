@@ -24,7 +24,7 @@
                 <li><a href="../pages/home.php" >Inicio</a></li>
                 <li><a href="../pages/videos.php">Videos</a></li>
                 <li><a href="../pages/documentos.php">Documentos</a></li>
-                <li><a href="../pages/enlaces.php">Enlaces</a></li>
+                <li><a href="../pages/enlaces.php">Enlace</a></li>
                 <?php
                 if ($_SESSION['username'] == "nicolas") {?>
                     <li><a href="../panel/panel-documento.php">Panel documentos</a></li>
