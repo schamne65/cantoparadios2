@@ -1,10 +1,2 @@
 
 
-RewriteEngine On
-
-# Redireccionar /page/index.php a /index.php
-RewriteCond %{REQUEST_URI} ^/page/(.*)$
-RewriteRule ^page/(.*)$ /$1 [L,R=301]
-
-# Reescribir /index.php a /page/index.php internamente
-RewriteRule ^(.*)$ page/$1 [L]
