@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Supongo que tienes una función de conexión llamada connection()
     $base = connection();
-    $consult = 'SELECT * FROM user WHERE user_name = ?';
+    $consult = 'SELECT * FROM user_panel WHERE user_name = ?';
     $stmt = $base->prepare($consult);
     $stmt->execute([$userName]);
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);

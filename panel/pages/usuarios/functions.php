@@ -8,7 +8,7 @@ include '../../db/connection.php';
 function userRegister($userName,$userPassword,$userEmail){
     try{
         $base =connection();
-        $consult='INSERT INTO user (user_name,user_email,user_password) VALUES ( ?, ?, ?)';
+        $consult='INSERT INTO user_panel (user_name,user_email,user_password) VALUES ( ?, ?, ?)';
         $stmt= $base->prepare($consult);
         $stmt->execute([$userName,$userEmail,$userPassword]);
         return true;
