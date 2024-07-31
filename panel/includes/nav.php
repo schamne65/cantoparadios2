@@ -9,7 +9,7 @@
                 <li><a href="../pages/documentos.php">Documentos</a></li>
                 <li><a href="../pages/enlaces.php">Enlaces</a></li> -->
                 <?php
-                if ($_SESSION['username'] == "nicolas") {?>
+                if ($_SESSION['username'] == "vanesa") {?>
                     <li><a href="../pages/panel-documento.php">Panel documentos</a></li>
                     <li><a href="../pages/panel-video.php">Panel videos</a></li>
                  <?php }
