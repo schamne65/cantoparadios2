@@ -11,7 +11,7 @@
 </head>
 <body class="index">
     <h1>Bienvenidos a Canto para Dios</h1>
-    <a class="enlace" href="./usuarios/login.php">Ingresar    </a>
+    <a class="enlace" href="./pages/usuarios/login.php">Ingresar    </a>
     
 </body>
 </html>
