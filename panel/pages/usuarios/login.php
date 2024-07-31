@@ -51,6 +51,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="submit" value="Ingresar" name="" id="">
     </form>
   </div>    
-  <a href="./register.php">registrarse</a>
+  
 </body>
 </html>
