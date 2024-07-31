@@ -14,6 +14,6 @@ if(!isset($pageClass['class'])){
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=MedievalSharp&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/iconos/style.css">
-    <title>Canto para Dios</title>
+    <title>Panel Canto para Dios</title>
 </head>
 <body class="<?php echo $pageClass['class'] ?>">
