@@ -7,8 +7,10 @@
 @import './import/login.scss';
 @import './import/home.scss';
 @import './import/enlaces.scss';
+@import './import/documento.scss';
+@import './import/panel.scss';
 //@import './iconos/iconos.scss';
 a{text-decoration: none !important; color: #000;}
 li{padding: 10px;list-style: none !important;}
 h3{font-size: 25px;}
-p{font-size: 18px;}
+p{font-size: 18px;text-indent: 10px;}

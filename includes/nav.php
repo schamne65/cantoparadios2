@@ -8,6 +8,12 @@
                 <li><a href="../pages/videos.php">Videos</a></li>
                 <li><a href="../pages/documentos.php">Documentos</a></li>
                 <li><a href="../pages/enlaces.php">Enlaces</a></li>
+                <?php
+                if ($_SESSION['username'] == "nicolas") {?>
+                    <li><a href="../panel/panel-documento.php">Panel documentos</a></li>
+                    <li><a href="../panel/panel-video.php">Panel videos</a></li>
+                 <?php }
+                ?>
             </ul>
         </nav>
     <span><a href="../pages/usuarios/logout.php">Salir</a></span>
@@ -19,6 +25,11 @@
                 <li><a href="../pages/videos.php">Videos</a></li>
                 <li><a href="../pages/documentos.php">Documentos</a></li>
                 <li><a href="../pages/enlaces.php">Enlaces</a></li>
+                <?php
+                if ($_SESSION['username'] == "nicolas") {?>
+                    <li><a href="../panel/panel-documento.php">Panel documentos</a></li>
+                    <li><a href="../panel/panel-video.php">Panel videos</a></li>
+                 <?php } ?>
             </ul>
 </nav>
 <main class="container">

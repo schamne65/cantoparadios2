@@ -170,6 +170,7 @@ body {
 .header .div-bloque .nav1 .ul li a {
   text-decoration: none;
   color: #000000;
+  font-size: large;
 }
 .header span a {
   text-decoration: none;
@@ -293,8 +294,12 @@ body {
   h3 {
     text-align: center;
   }
-  img {
+  .acercade-container {
+    text-align: center;
+  }
+  .acercade img {
     float: none;
+    margin: 0 auto;
   }
 }
 .login {
@@ -379,20 +384,68 @@ input[type=submit] {
 
 @media screen and (max-width: 760px) {
   #img-home {
-    width: 320px;
+    width: 100%;
   }
 }
-.link .link-container a {
+.link section {
+  display: flex;
+}
+.link section .link-container a {
   font-size: 30px;
 }
-.link .link-container a [class^=icon-]::before {
+.link section .link-container a [class^=icon-]::before {
   position: relative;
   top: 3px;
   color: #c4302b;
   font-size: 35px;
 }
-.link .link-container a .link-name {
+.link section .link-container a .link-name {
   margin-left: 5px;
+}
+
+.div-container {
+  flex: 2;
+}
+
+.img-container {
+  flex: 1;
+}
+.img-container img {
+  width: 100%;
+}
+
+.documento h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.documento .textarea {
+  display: block;
+  margin-top: 5px;
+}
+.documento a {
+  font-size: 16px;
+}
+.documento span::before {
+  font-size: 30px;
+  margin: 2px;
+}
+
+.panel section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel section form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.panel section form input {
+  margin: 5px 0 20px;
+  min-height: 25px;
+}
+.panel section textarea {
+  height: 100px;
 }
 
 a {
@@ -411,6 +464,7 @@ h3 {
 
 p {
   font-size: 18px;
+  text-indent: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
