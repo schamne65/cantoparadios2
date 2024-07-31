@@ -5,10 +5,10 @@
 RewriteEngine On
 
 # Redirigir permanentemente URLs con "page" al equivalente sin "page"
-RewriteCond %{REQUEST_URI} ^/pages/(.*)$
-RewriteRule ^pages/(.*)$ /$1 [L,R=301]
+RewriteCond %{REQUEST_URI} ^/pages/usuarios/(.*)$
+RewriteRule ^pages/usuarios/(.*)$ /$1 [L,R=301]
 
 # Reescribir internamente cualquier URL sin "page" a la carpeta "page"
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ pages/$1 [L]
+RewriteRule ^(.*)$ pages/usuarios/$1 [L]
