@@ -1,3 +1,4 @@
-
+<IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule ^page/(.*)$ /$1 [L,R=301]
+RewriteRule ^pages/(.*)$ /$1 [L,R=301]
+</IfModule>
